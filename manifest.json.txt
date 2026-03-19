@@ -1,0 +1,12 @@
+{
+  "name": "Glortex Systém",
+  "short_name": "Glortex",
+  "start_url": "https://docs.google.com/spreadsheets/d/1s5FhRMvzH3dT-n8SROx-Uzg7-qMN2zALKGwUqaWlAC0/edit",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#004a99",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

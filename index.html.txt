@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Glortex App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 20%; background: #f4f4f4; }
+        .loader { color: #004a99; font-weight: bold; }
+    </style>
+    <script>
+        // Automatické presmerovanie do tabuľky po 1 sekunde
+        setTimeout(function(){
+            window.location.href = "https://docs.google.com/spreadsheets/d/1s5FhRMvzH3dT-n8SROx-Uzg7-qMN2zALKGwUqaWlAC0/edit";
+        }, 1000);
+    </script>
+</head>
+<body>
+    <div class="loader">Otváram systém Glortex...</div>
+</body>
+</html>
